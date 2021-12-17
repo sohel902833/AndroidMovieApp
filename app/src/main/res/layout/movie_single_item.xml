@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="fitXY"
+        android:id="@+id/movieImageViewId"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie Title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:id="@+id/movieTitleTextViewId"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie Title"
+        android:layout_marginLeft="10dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:id="@+id/movieRatingTextViewId"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Release Date"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:id="@+id/movieReleaseDateTvId"
+        />
+
+
+</LinearLayout>
